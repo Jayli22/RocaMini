@@ -19,7 +19,7 @@ public class BaseAttackCombo2 : StateMachineBehaviour
 
         if (stateInfo.normalizedTime > Player.MyInstance.baseAttackPreCastTime[1] && Player.MyInstance.comboEffectMark == false)
         {
-            Player.MyInstance.InstantiateEffectRotate(Player.MyInstance.attackEffect[1], Player.MyInstance.mouseAngle);
+            Player.MyInstance.InstantiateEffectRotate(Player.MyInstance.attackEffect[1], Player.MyInstance.attackDirection);
             Player.MyInstance.comboEffectMark = true;
 
         }

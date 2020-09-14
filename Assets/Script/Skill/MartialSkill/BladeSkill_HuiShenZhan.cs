@@ -53,7 +53,7 @@ public class BladeSkill_HuiShenZhan : BaseMartialSkill
     }
     public void Phase_1()
     {
-        Player.MyInstance.LineDriveDash(Player.MyInstance.mouseDir, rushDistance, 0.1f);
+       // Player.MyInstance.LineDriveDash(Player.MyInstance.mouseDir, rushDistance, 0.1f);
 
     }
 

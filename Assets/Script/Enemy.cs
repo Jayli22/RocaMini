@@ -397,7 +397,7 @@ public class Enemy : Character
     protected void Turn()
     {
         animator.SetFloat("DirectionX", playerCharacterPos.x - transform.position.x);
-        animator.SetFloat("DirectionY", playerCharacterPos.y - transform.position.y);
+       // animator.SetFloat("DirectionY", playerCharacterPos.y - transform.position.y);
     }
     /// <summary>
     /// 向指定方向转向

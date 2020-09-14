@@ -149,7 +149,7 @@ public class BaseMartialSkill : ReleasedPrefab
     
     protected virtual void BeforeDestory()
     {
-        Player.MyInstance.AbleToSetMousePos(true);
+      //  Player.MyInstance.AbleToSetMousePos(true);
 
     }
     

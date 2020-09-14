@@ -10651,6 +10651,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &701855564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8418292803310262291, guid: e12bab1c4126a8f46896483b37dcd52d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1000495617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &701855570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701855564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995f34434fbe45d46aacf4e120446279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button:
+    m_key: dodge
+    value: 0
 --- !u!1 &719523628
 GameObject:
   m_ObjectHideFlags: 0
@@ -11798,6 +11819,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4592384754362253777, guid: 66e0ab37ba7e26247b4a20fcfc4ff691,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2266880036062690949, guid: 369ba7406d5eaef43a5d2881846e6e6f,
+        type: 3}
     - target: {fileID: 6041595888034843566, guid: 66e0ab37ba7e26247b4a20fcfc4ff691,
         type: 3}
       propertyPath: baseATK
@@ -11818,6 +11845,24 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1382485959}
+    - target: {fileID: 6041595888034843566, guid: 66e0ab37ba7e26247b4a20fcfc4ff691,
+        type: 3}
+      propertyPath: baseAttackPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 8499777014672805773, guid: 805d2980910a8ef49bc624e75c89d4d5,
+        type: 3}
+    - target: {fileID: 6041595888034843566, guid: 66e0ab37ba7e26247b4a20fcfc4ff691,
+        type: 3}
+      propertyPath: baseAttackPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 9102580481832831120, guid: 49935d9d4a8c3a2488c843e31b90b9e4,
+        type: 3}
+    - target: {fileID: 6041595888034843566, guid: 66e0ab37ba7e26247b4a20fcfc4ff691,
+        type: 3}
+      propertyPath: baseAttackPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 9102580481832831120, guid: 25deaf3e124b43345a5c006d67daff38,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66e0ab37ba7e26247b4a20fcfc4ff691, type: 3}
 --- !u!1 &817676140
@@ -13119,6 +13164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418292802696194961, guid: e12bab1c4126a8f46896483b37dcd52d,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u95EA\u907F"
       objectReference: {fileID: 0}
     - target: {fileID: 8418292803484476417, guid: e12bab1c4126a8f46896483b37dcd52d,
         type: 3}

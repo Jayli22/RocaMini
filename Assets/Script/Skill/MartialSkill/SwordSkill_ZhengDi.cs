@@ -41,10 +41,10 @@ public class SwordSkill_ZhengDi : BaseMartialSkill
     {
         base.Release();
         Phase_1();
-    }
+    }   
     public void Phase_1()
     {
-        Player.MyInstance.LineDriveDash(Player.MyInstance.mouseDir,rushDistance, 0.2f);
+      //  Player.MyInstance.LineDriveDash(Player.MyInstance.mouseDir,rushDistance, 0.2f);
 
     }
 }
